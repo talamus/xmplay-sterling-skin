@@ -1,5 +1,12 @@
 ## Sterling Skinning Kit version 1.1 by Tero Niemi (talamus@gmail.com), 2008
 
+### Download link for the binaries:
+
+https://support.xmplay.com/files_view.php?file_id=568
+
+
+### This Repository
+
 With this skinning kit you can quickly and easily create a "Sterling"
 type skin for XMPlay 3.4. All you have to do is:
 
