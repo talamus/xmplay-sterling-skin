@@ -1,0 +1,93 @@
+!!! NOTE: ALL TAG NAMES MUST BE LOWER CASE !!!
+
+scaler_lit = 1.6 1.6 1.6		;lit (R G B scalers)
+scaler_pressed = 0.8 0.8 0.8		;pressed
+scaler_search = 1.0 1.0 1.0		;search match
+scaler_title = 1.0 1.0 1.0		;active title text
+
+color_main = ffffff			;main panel text (RGB hex)
+color_title = ffffff			;title
+color_titlemini = 0a206d		;mini-mode title (if omitted, color_title is used)
+color_time = ffffff			;time display (if omitted, color_main is used)
+;color_timemini = 000000		;mini-mode time display (if omitted, color_time/color_main is used)
+color_text = 999999			;list/info panel text
+color_list = ffffff			;playlist panel text (if omitted, color_text is used)
+color_infolist = ffffff			;ext.playlist text (if omitted, color_text is used)
+color_info = 6666ff			;info heading text
+color_infotext = ffffff			;info text, excluding ext.playlist (if omitted, color_text is used)
+color_help = 000000			;help text & border
+color_helpback = c7ddef			;help background
+color_listtime = ffffff			;playlist time & track count
+color_listdead = 991900			; dead track marker
+color_listmark = e5e5e5			;current track marker
+color_listhover = 6666ff		;mouse hover framing (if omitted, scaler_pressed is applied, off=no framing)
+color_infoback = 050505			;info window background (if omitted, background of playlist is used)
+color_seethru = 00ff00			;transparent panel/slider/scroller colour
+color_search = ff3300			;search match text
+
+pos_left = 350 -352			;left panel offset & margin
+;pos_leftdown = 1			;left panel opens downwards?
+pos_right = -2 0			;right panel offset & margin
+pos_rightdown = 1			;right panel opens downwards?
+pos_rightoverleft = 1			;left/right panel Z-order
+pos_litleft = 0 0			;offset of on/off bitmap in left panel buttons (x y, -1 = centered)
+pos_litinfo = 0 0			;offset of on/off bitmap in info window buttons
+pos_scrollinfo = 2			;offset of scroller in info window right side bitmap (x)
+pos_listnum = 1				;vertical offset adjustment of playlist numbers (y)
+pos_infoframe = 8			;info window frame width (if omitted, width of info_left.bmp is used)
+pos_titlescroll = 0			;title scrolling (0=smooth, 1=block)
+pos_level = 0				;level display scheme (0=mirror horizontal, 1=horizontal split, 2=vertical split, 3=mono (multi-state only))
+pos_listoff = 0				;playlist text offset (space for markers)
+pos_automini = 0			;switch from mini to normal layout when the mouse is hovering?
+
+font_titlesize = 12			;title font size
+font_titlebold = 0			;title font is bold?
+font_titlealign = 1			;title alignment (0=centre, 1=left, 2=right)
+font_titleminisize = 12			;mini-mode title font size
+font_titleminibold = 0			;mini-mode title font is bold?
+font_titleminialign = 1			;mini-mode title alignment (0=centre, 1=left, 2=right)
+font_timesize = 25			;time font size
+font_timebold = 0			;time font is bold?
+font_timeminisize = 11			;mini-mode time font size
+font_timeminibold = 0			;mini-mode time font is bold?
+font_mainsize = 9			;main panel font size
+font_mainbold = 0			;main panel font is bold?
+font_helpsize = 11			;help font size
+font_helpbold = 0			;help font is bold?
+font_listsize = 12			;playlist font size
+font_listbold = 0			;playlist font is bold?
+font_listnumsize = 11			;playlist numbers font size
+font_listnumbold = 0			;playlist numbers font is bold?
+font_infosize = 12			;info window font size
+font_infobold = 0			;info window font is bold?
+
+; Comment out one of the following blocks:
+
+; --- Standard portable fonts -------------------------------------------------
+font_title = Tahoma			;title font
+font_titlemini = Tahoma  		;mini-mode title font (if omitted, font_title is used)
+font_time = Arial			;time display font
+font_timemini = Arial			;mini-mode time display font (if omitted, font_main is used)
+font_main = Tahoma			;main panel font (info area)
+font_help = Tahoma			;help "bubble" font
+font_list = Tahoma			;playlist font
+font_listnum = Tahoma			;playlist numbers font (inc. time/format/search text)
+font_info = Tahoma			;info window font (should be a fixed-pitch font)
+; -----------------------------------------------------------------------------
+
+; --- Unicode support ---------------------------------------------------------
+; font_title = Arial Unicode MS		;title font
+; font_titlemini = Arial Unicode MS	;mini-mode title font (if omitted, font_title is used)
+; font_time = Arial Unicode MS		;time display font
+; font_timemini = Arial Unicode MS	;mini-mode time display font (if omitted, font_main is used)
+; font_main = Arial Unicode MS		;main panel font (info area)
+; font_help = Arial Unicode MS		;help "bubble" font
+; font_list = Arial Unicode MS		;playlist font
+; font_listnum = Arial Unicode MS  	;playlist numbers font (inc. time/format/search text)
+; font_info = Arial Unicode MS		;info window font (should be a fixed-pitch font)
+; -----------------------------------------------------------------------------
+
+text_author = Tero Niemi		;skin author
+text_url = mailto:talamus@gmail.com	;skin author url, eg. http:// or mailto:
+
+; EOF

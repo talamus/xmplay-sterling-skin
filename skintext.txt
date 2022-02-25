@@ -1,0 +1,16 @@
+Sterling Skin Name
+==================
+
+Skin Readme
+
+XMPlay 3.4 required!
+
+--- Please leave the following note: -----------------------------------
+
+This skin is created with Sterling Skinning Kit version 1.1 (2008-04-28)
+The kit and the original Sterling theme were created by:
+
+    Tero Niemi
+    (talamus@gmail.com)
+
+------------------------------------------------------------------------
